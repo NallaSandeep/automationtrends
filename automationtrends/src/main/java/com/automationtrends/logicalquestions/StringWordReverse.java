@@ -2,14 +2,14 @@ package com.automationtrends.logicalquestions;
 
 import java.util.Scanner;
 
-public class StringReverse {
+public class StringWordReverse {
     /**
-     * It prints the reverse of the given string. 
+     * It prints the words of the given string in reverse order. 
      * <b>Output:</b><br>
      * Enter a String:<br>
-     * Truth prevails<br>
-     * Reverse of 'Truth prevails':<br>
-     * sliaverp hturT<br>
+     * Will meet you tomorrow<br>
+     * Words of 'Will meet you tomorrow' in reverse order:<br>
+     * tomorrow you meet Will<br>
      * @author Sandeep, Nalla
      * @since April 14th, 2019
      */
@@ -17,11 +17,12 @@ public class StringReverse {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a String:");
         String input = scanner.nextLine();
+        String[] words = input.split(" ");
         String output = "";
-        for(int i = input.length() - 1; i >= 0 ; i--) {
-            output += input.charAt(i); 
+        for(int i = words.length - 1; i >= 0 ; i--) {
+            output = output + words[i] + " "; 
         }
-        System.out.println("Reverse of \'" + input + "\':\n" + output);
+        System.out.println("Words of \'" + input + "\' in reverse order:\n" + output);
         scanner.close();
     }
 }
