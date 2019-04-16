@@ -3,7 +3,16 @@ package com.automationtrends.logicalquestions;
 import java.util.Scanner;
 
 public class StringReverse {
-
+    /**
+     * It prints the reverse of the given string. 
+     * <b>Output:</b><br>
+     * Enter a String:<br>
+     * Sandeep<br>
+     * Reverse of 'Sandeep:<br>
+     * peednaS<br>
+     * @author Sandeep, Nalla
+     * @since April 14th, 2019
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a String:");
