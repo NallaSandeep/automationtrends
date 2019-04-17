@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class StringReverse {
     /**
-     * It prints the reverse of the given string. 
+     * It prints the reverse of the given string. <br><br>
      * <b>Output:</b><br>
      * Enter a String:<br>
      * Truth prevails<br>
      * Reverse of 'Truth prevails':<br>
      * sliaverp hturT<br>
      * @author Sandeep, Nalla
-     * @since April 14th, 2019
+     * @since April 16th, 2019
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

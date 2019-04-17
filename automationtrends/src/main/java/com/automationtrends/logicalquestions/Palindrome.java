@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Palindrome {
     /**
-     * It says if the given string is palindrome or not. 
+     * It says if the given string is palindrome or not. <br><br>
      * <b>Output:</b><br>
      * Enter a String:<br>
      * 12321<br>

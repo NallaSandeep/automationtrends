@@ -7,12 +7,12 @@ import java.util.Set;
 
 public class CommonCharactersBtwStrings {
     /**
-     * It prints the reverse of the given string. <b>Output:</b><br>
+     * It prints the reverse of the given string. <br><br><b>Output:</b><br>
      * Enter a String1:<br>
      * Roses <br>Enter a String2: <br>Florist <br>Common Characters between 'ROSES' and
      * 'FLORIST': <br>'R' 'S' 'O'
      * @author Sandeep, Nalla
-     * @since April 14th, 2019
+     * @since April 17th, 2019
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

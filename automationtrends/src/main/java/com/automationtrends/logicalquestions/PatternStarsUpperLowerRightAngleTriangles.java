@@ -16,7 +16,7 @@ public class PatternStarsUpperLowerRightAngleTriangles {
      **
      *</pre>
      * @author Sandeep, Nalla
-     * @since April 14th, 2019
+     * @since April 16th, 2019
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
