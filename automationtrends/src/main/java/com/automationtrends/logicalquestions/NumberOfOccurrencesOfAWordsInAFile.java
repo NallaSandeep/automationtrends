@@ -9,7 +9,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class NumberOfOccurrencesOfAWorkInAFile {
+public class NumberOfOccurrencesOfAWordsInAFile {
     /**
      * It prints the number of occurrences of each word in a given file. <br><br>
      * <b>Output:</b><br>
